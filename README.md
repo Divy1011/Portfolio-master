@@ -3,7 +3,7 @@
 
 ## Live Link / Demo Link: 🔗
 
-visit this :- https://r6kzxx-3000.csb.app
+visit this :- https://2g8vmx-3000.csb.app/
 
 ## Built With
 
