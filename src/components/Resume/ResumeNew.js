@@ -10,6 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [isMounted, setIsMounted] = useState(true); // State to track mounted status
 
   useEffect(() => {
     const handleResize = () => {
@@ -17,7 +18,9 @@ function ResumeNew() {
     };
 
     window.addEventListener("resize", handleResize);
+    // Cleanup function to remove event listener
     return () => {
+      setIsMounted(false); // Set mounted status to false on unmount
       window.removeEventListener("resize", handleResize);
     };
   }, []);
@@ -39,9 +42,12 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+          {/* Conditional rendering based on mounted status */}
+          {isMounted && (
+            <Document file={pdf} className="d-flex justify-content-center">
+              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            </Document>
+          )}
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
