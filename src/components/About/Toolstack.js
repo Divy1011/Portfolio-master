@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiChrome, DiFirefox, DiGoogleDrive } from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiFirefoxbrowser,
   SiWindows11,
   SiXampp
 } from "react-icons/si";
@@ -21,10 +21,16 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirefoxbrowser />
+        <DiFirefox />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiChrome />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiXampp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGoogleDrive />
       </Col>
     </Row>
   );

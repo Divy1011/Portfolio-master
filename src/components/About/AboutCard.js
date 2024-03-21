@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
             I am currently ReactJs Developer Intern at iCreatewebtech.
             <br />
-            I have completed BTech in Information Technology at Silver Oak 
-            University.
+            For more details please go through my resume from top right corner
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -5,13 +5,16 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGithub,
+  DiBootstrap,
+  DiGithubBadge,
+  DiNpm,
 } from "react-icons/di";
 import {
   SiHtml5,
   SiCss3,
   SiExpress,
   SiMysql,
+  SiTailwindcss,
 } from "react-icons/si";
 
 
@@ -26,6 +29,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -43,7 +52,10 @@ function Techstack() {
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGithub />
+        <DiGithubBadge />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNpm />
       </Col>
     </Row>
   );
