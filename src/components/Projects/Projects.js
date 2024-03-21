@@ -43,7 +43,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Todo App"
-              description="This is a Todo list demo project created with Node.js as the backend, utilizing Express APIs. CRUD operations are performed using a MongoDB database. This project serves as a learning experience.t"
+              description="This is a Todo list demo project created with Node.js as the backend, utilizing Express APIs. CRUD operations are performed using a MongoDB database. This project serves as a learning experience"
               ghLink="https://github.com/Divy1011/todo-website-demo"             
             />
           </Col>
