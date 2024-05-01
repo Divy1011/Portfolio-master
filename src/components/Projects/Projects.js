@@ -8,6 +8,7 @@ import bitsOfCode from "../../Assets/Projects/news.png";
 import electric from "../../Assets/Projects/ss.png"
 import portfolio from "../../Assets/Projects/ss2.png"
 import ss3 from "../../Assets/Projects/ss3.png"
+import ss4 from "../../Assets/Projects/ss4.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -35,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ss4}
               isBlog={false}
               title="Text Utills"
               description="Web-based text editor used for text manipulation tasks such as converting text to upper and lower case, as well as measuring the length of text."
