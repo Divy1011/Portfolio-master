@@ -41,7 +41,7 @@ function Projects() {
               title="Text Utills"
               description="Web-based text editor used for text manipulation tasks such as converting text to upper and lower case, as well as measuring the length of text."
               ghLink="https://github.com/Divy1011/TextUtills"
-              demoLink="https://textutills-demo.netlify.app/"
+              demoLink="https://dp-textutills-demo.netlify.app/"
             />
           </Col>
 
