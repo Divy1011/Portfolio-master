@@ -7,6 +7,7 @@ import chatify from "../../Assets/Projects/text.png";
 import bitsOfCode from "../../Assets/Projects/news.png";
 import electric from "../../Assets/Projects/ss.png"
 import portfolio from "../../Assets/Projects/ss2.png"
+import ss3 from "../../Assets/Projects/ss3.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -62,18 +63,18 @@ function Projects() {
               title="News Monkey"
               description="A demo project for a news app created using the News API. It features various types of news, including sports, business, entertainment, general, and health. This project serves as a part of my learning process with APIs."
               ghLink="https://github.com/Divy1011/newsapp"
-              demoLink="https://newsmonkey-apidemo.netlify.app/"
+              demoLink="https://divy-demosite.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ss3}
               isBlog={false}
               title="Todo App"
               description="This is a Todo list demo project created with Node.js as the backend, utilizing Express APIs. CRUD operations are performed using a MongoDB database. This project serves as a learning experience"
               ghLink="https://github.com/Divy1011/todo-website-demo"
-              demoLink="https://todo-webdemo.netlify.app/"
+              demoLink="https://divy-demosite.netlify.app/"
             />
           </Col>
         </Row>
