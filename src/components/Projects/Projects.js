@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import bitsOfCode from "../../Assets/Projects/news.png";
 import electric from "../../Assets/Projects/ss.png"
 import portfolio from "../../Assets/Projects/ss2.png"
 import ss3 from "../../Assets/Projects/ss3.png"
 import ss4 from "../../Assets/Projects/ss4.png"
 import ss5 from "../../Assets/Projects/ss5.png"
+import ss6 from "../../Assets/Projects/ss6.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -58,6 +58,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={ss3}
+              isBlog={false}
+              title="Todo App"
+              description="This is a Todo list demo project created with Node.js as the backend, utilizing Express APIs. CRUD operations are performed using a MongoDB database. This project serves as a learning experience"
+              ghLink="https://github.com/Divy1011/todo-website-demo"
+              demoLink="https://divy-demosite.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={ss5}
               isBlog={false}
               title="News Monkey"
@@ -69,9 +80,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ss3}
+              imgPath={ss6}
               isBlog={false}
-              title="Todo App"
+              title="Redux Demo"
               description="This is a Todo list demo project created with Node.js as the backend, utilizing Express APIs. CRUD operations are performed using a MongoDB database. This project serves as a learning experience"
               ghLink="https://github.com/Divy1011/todo-website-demo"
               demoLink="https://divy-demosite.netlify.app/"
