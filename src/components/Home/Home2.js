@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import avtar from "../../Assets/Projects/AI profilepic.jpg"
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am good in
               <i>
-                <b className="purple"> HTML, Javascript and CSS. </b>
+                <b className="purple"> HTML, Javascript and ReactJs. </b>
               </i>
               <br />
               <br />
@@ -32,28 +32,28 @@ function Home2() {
                 <b className="purple">Web Technologies</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  FullStack.
+                  MERN Stack.
                 </b>
               </i>
               <br />
               <br />
-               My passion is to learn and developing 
-                <b className="purple"> Node.js</b> and
+              My passion is to learn and developing
+              <b className="purple"> Web Application</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Library and Framework
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Express</b>
+                <b className="purple"> React.js </b>
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={avtar} className="img-fluid rounded-circle" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

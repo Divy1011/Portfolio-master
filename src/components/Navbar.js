@@ -58,7 +58,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Divy1011/Portfolio-Divy"
+                href="https://github.com/Divy1011"
                 target="_blank"
                 className="fork-btn-inner"
               >

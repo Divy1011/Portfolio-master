@@ -4,9 +4,10 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";
-import EducationCard from "../Education/Education"; // Import the EducationCard component
+import EducationCard from "../Education/Education";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import ExperienceCard from "../WorkExp/workExperiance";
 
 function About() {
   return (
@@ -38,6 +39,10 @@ function About() {
         <h1>Education &#127891;</h1>
         <br></br>
         <EducationCard />
+        <br></br>
+        <br></br>
+        <h1>Work Experience &#128188;</h1>
+        <ExperienceCard />
         <br></br>
         <br></br>
         <h1 className="project-heading">

@@ -7,7 +7,7 @@ function EducationCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          
+
           <ul>
             <li className="about-activity">
               <ImPointRight /><strong className="purple"> BTech</strong> Information Technology from <strong className="purple"> Silver Oak University</strong>
