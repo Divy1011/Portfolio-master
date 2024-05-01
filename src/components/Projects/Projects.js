@@ -83,7 +83,7 @@ function Projects() {
               imgPath={ss6}
               isBlog={false}
               title="Redux Demo"
-              description="This is a Todo list demo project created with Node.js as the backend, utilizing Express APIs. CRUD operations are performed using a MongoDB database. This project serves as a learning experience"
+              description="This Redux basic web app is created for the sole purpose of learning, aiming to increment and decrement numbers using state management."
               ghLink="https://github.com/Divy1011/redux-demo"
               demoLink="https://redux-demosite.netlify.app/"
             />
