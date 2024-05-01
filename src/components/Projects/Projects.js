@@ -84,8 +84,8 @@ function Projects() {
               isBlog={false}
               title="Redux Demo"
               description="This is a Todo list demo project created with Node.js as the backend, utilizing Express APIs. CRUD operations are performed using a MongoDB database. This project serves as a learning experience"
-              ghLink="https://github.com/Divy1011/todo-website-demo"
-              demoLink="https://divy-demosite.netlify.app/"
+              ghLink="https://github.com/Divy1011/redux-demo"
+              demoLink="https://redux-demosite.netlify.app/"
             />
           </Col>
         </Row>
