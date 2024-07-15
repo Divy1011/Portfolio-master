@@ -10,7 +10,7 @@ function ExperienceCard() {
                     {/* <h1>Work Experience</h1> */}
                     <ul>
                         <li className="about-activity">
-                            <ImPointRight /><strong className="purple">ReactJs Developer Intern</strong> at <strong className="purple">iCreatewebtech</strong> (January 2024 -Present)
+                            <ImPointRight /><strong className="purple">ReactJs Developer Intern</strong> at <strong className="purple">iCreatewebtech</strong> (October 2024 -May 2024)
                         </li>
                         <li className="about-activity">
                             <ImPointRight /><strong className="purple">FrontEnd Developer Internship</strong> at <strong className="purple">Maxgen Technology</strong> (January 2023 -May 2023)

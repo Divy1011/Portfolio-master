@@ -32,7 +32,7 @@ function Home2() {
                 <b className="purple">Web Technologies</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  MERN Stack.
+                  Cybersecurity.
                 </b>
               </i>
               <br />

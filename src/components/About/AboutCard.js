@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Divy Patel </span>
             from <span className="purple"> Ahmedabad, India.</span>
             <br />
-            I am currently ReactJs Developer Intern at iCreatewebtech.
+            I am currently pursuing MS Cybersecurity from Rowan University
             <br />
             For more details please go through my resume from top right corner
             <br />

@@ -9,6 +9,9 @@ function EducationCard() {
         <blockquote className="blockquote mb-0">
 
           <ul>
+          <li className="about-activity">
+              <ImPointRight /><strong className="purple"> MS</strong> in Cybersecurity <strong className="purple"> Rowan University</strong>
+            </li>
             <li className="about-activity">
               <ImPointRight /><strong className="purple"> BTech</strong> Information Technology from <strong className="purple"> Silver Oak University</strong>
             </li>
